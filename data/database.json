@@ -1,13 +1,242 @@
 [
   {
-    "auth": "None",
-    "category": "Web & Text",
-    "cors": "unknown",
-    "description": "A static entry",
-    "https": true,
-    "pricing": "Free",
-    "slug": "wikipedia-dumps",
-    "title": "Wikipedia Dumps",
-    "url": "https://example.com"
+    "id": "nextjs-saas-starter",
+    "name": "Next.js Zero-Cost SaaS",
+    "description": "Tailwind, Supabase, and Stripe integration.",
+    "category": "Fullstack",
+    "language": "TypeScript",
+    "url": "https://github.com/search?q=nextjs-saas-starter"
+  },
+  {
+    "id": "vite-react-minimal",
+    "name": "Vite + React (SWC)",
+    "description": "Ultra-fast starter with ESLint and Prettier.",
+    "category": "Frontend",
+    "language": "JavaScript",
+    "url": "https://github.com/search?q=vite-react-minimal"
+  },
+  {
+    "id": "django-rest-boilerplate",
+    "name": "Django REST Framework",
+    "description": "Pre-configured JWT auth and Docker support.",
+    "category": "Backend",
+    "language": "Python",
+    "url": "https://github.com/search?q=django-rest-boilerplate"
+  },
+  {
+    "id": "flask-htmx-starter",
+    "name": "Flask + HTMX Template",
+    "description": "Modern SPAs without complex JS frameworks.",
+    "category": "Fullstack",
+    "language": "Python",
+    "url": "https://github.com/search?q=flask-htmx-starter"
+  },
+  {
+    "id": "rust-wasm-yew",
+    "name": "Rust Yew Web App",
+    "description": "Static site generation with WebAssembly.",
+    "category": "Frontend",
+    "language": "Rust",
+    "url": "https://github.com/search?q=rust-wasm-yew"
+  },
+  {
+    "id": "go-gin-api",
+    "name": "Go Gin API Starter",
+    "description": "Restful API with Gorm and Zap logging.",
+    "category": "Backend",
+    "language": "Go",
+    "url": "https://github.com/search?q=go-gin-api"
+  },
+  {
+    "id": "laravel-breeze",
+    "name": "Laravel Breeze + Vue",
+    "description": "Modern auth scaffolding with Inertia.js.",
+    "category": "Fullstack",
+    "language": "PHP",
+    "url": "https://github.com/search?q=laravel-breeze"
+  },
+  {
+    "id": "svelte-kit-auth",
+    "name": "SvelteKit + Auth.js",
+    "description": "Secure starter with social logins in 5 mins.",
+    "category": "Fullstack",
+    "language": "JavaScript",
+    "url": "https://github.com/search?q=svelte-kit-auth"
+  },
+  {
+    "id": "astro-starlight",
+    "name": "Astro Starlight Docs",
+    "description": "Beautiful documentation site starter.",
+    "category": "Static Site",
+    "language": "Markdown",
+    "url": "https://github.com/search?q=astro-starlight"
+  },
+  {
+    "id": "express-mongo-jwt",
+    "name": "Express + MongoDB Boilerplate",
+    "description": "Node.js API with Passport and Mongoose.",
+    "category": "Backend",
+    "language": "JavaScript",
+    "url": "https://github.com/search?q=express-mongo-jwt"
+  },
+  {
+    "id": "fastapi-pydanticv2",
+    "name": "FastAPI + SQLAlchemy",
+    "description": "High-performance API with async support.",
+    "category": "Backend",
+    "language": "Python",
+    "url": "https://github.com/search?q=fastapi-pydanticv2"
+  },
+  {
+    "id": "ruby-on-rails-7",
+    "name": "Rails 7 + Hotwire",
+    "description": "No-build JS frontends with Stimulus.",
+    "category": "Fullstack",
+    "language": "Ruby",
+    "url": "https://github.com/search?q=ruby-on-rails-7"
+  },
+  {
+    "id": "spring-boot-maven",
+    "name": "Spring Boot 3 + Security",
+    "description": "Enterprise-ready Java web boilerplate.",
+    "category": "Backend",
+    "language": "Java",
+    "url": "https://github.com/search?q=spring-boot-maven"
+  },
+  {
+    "id": "flutter-provider-starter",
+    "name": "Flutter State Management",
+    "description": "Provider-based mobile app starter.",
+    "category": "Mobile",
+    "language": "Dart",
+    "url": "https://github.com/search?q=flutter-provider-starter"
+  },
+  {
+    "id": "react-native-expo",
+    "name": "Expo Router Boilerplate",
+    "description": "File-based routing for cross-platform apps.",
+    "category": "Mobile",
+    "language": "JavaScript",
+    "url": "https://github.com/search?q=react-native-expo"
+  },
+  {
+    "id": "nestjs-microservice",
+    "name": "NestJS Microservice Hub",
+    "description": "RabbitMQ and Redis transport pre-configured.",
+    "category": "Backend",
+    "language": "TypeScript",
+    "url": "https://github.com/search?q=nestjs-microservice"
+  },
+  {
+    "id": "remix-run-stack",
+    "name": "Remix Indie Stack",
+    "description": "SQLite, Prisma, and Tailwind CSS.",
+    "category": "Fullstack",
+    "language": "TypeScript",
+    "url": "https://github.com/search?q=remix-run-stack"
+  },
+  {
+    "id": "eleventy-pure-css",
+    "name": "Eleventy Blog Starter",
+    "description": "Blazing fast blog with 0 JavaScript.",
+    "category": "Static Site",
+    "language": "Liquid",
+    "url": "https://github.com/search?q=eleventy-pure-css"
+  },
+  {
+    "id": "solid-start-base",
+    "name": "SolidStart + Prisma",
+    "description": "Modern reactive full-stack boilerplate.",
+    "category": "Fullstack",
+    "language": "JavaScript",
+    "url": "https://github.com/search?q=solid-start-base"
+  },
+  {
+    "id": "tauri-desktop-app",
+    "name": "Tauri + Vite + Rust",
+    "description": "Lightweight desktop app boilerplate.",
+    "category": "Desktop",
+    "language": "Rust",
+    "url": "https://github.com/search?q=tauri-desktop-app"
+  },
+  {
+    "id": "electron-forge-react",
+    "name": "Electron Forge React",
+    "description": "Standard desktop app with React UI.",
+    "category": "Desktop",
+    "language": "JavaScript",
+    "url": "https://github.com/search?q=electron-forge-react"
+  },
+  {
+    "id": "deno-fresh-minimal",
+    "name": "Deno Fresh Starter",
+    "description": "Island architecture on the edge.",
+    "category": "Fullstack",
+    "language": "TypeScript",
+    "url": "https://github.com/search?q=deno-fresh-minimal"
+  },
+  {
+    "id": "bun-hono-api",
+    "name": "Bun + Hono Fast API",
+    "description": "Fastest Node-compatible API starter.",
+    "category": "Backend",
+    "language": "TypeScript",
+    "url": "https://github.com/search?q=bun-hono-api"
+  },
+  {
+    "id": "nuxt3-module-boilerplate",
+    "name": "Nuxt 3 Module Starter",
+    "description": "Develop and publish Nuxt plugins.",
+    "category": "Framework",
+    "language": "TypeScript",
+    "url": "https://github.com/search?q=nuxt3-module-boilerplate"
+  },
+  {
+    "id": "jekyll-chirpy",
+    "name": "Jekyll Professional Blog",
+    "description": "Feature-rich theme with dark mode.",
+    "category": "Static Site",
+    "language": "Ruby",
+    "url": "https://github.com/search?q=jekyll-chirpy"
+  },
+  {
+    "id": "hugo-blowfish",
+    "name": "Hugo Blowfish Theme",
+    "description": "Extremely fast and flexible Hugo site.",
+    "category": "Static Site",
+    "language": "Go",
+    "url": "https://github.com/search?q=hugo-blowfish"
+  },
+  {
+    "id": "capacitor-ios-android",
+    "name": "Capacitor Mobile Shell",
+    "description": "Turn any Web App into a native app.",
+    "category": "Mobile",
+    "language": "JavaScript",
+    "url": "https://github.com/search?q=capacitor-ios-android"
+  },
+  {
+    "id": "quasar-cross-platform",
+    "name": "Quasar Framework UI",
+    "description": "One codebase for Web, Mobile, and Desktop.",
+    "category": "Fullstack",
+    "language": "Vue",
+    "url": "https://github.com/search?q=quasar-cross-platform"
+  },
+  {
+    "id": "phoenix-elixir-liveview",
+    "name": "Phoenix LiveView SaaS",
+    "description": "Real-time web apps with Elixir.",
+    "category": "Fullstack",
+    "language": "Elixir",
+    "url": "https://github.com/search?q=phoenix-elixir-liveview"
+  },
+  {
+    "id": "strapi-headless-cms",
+    "name": "Strapi 5 Beta Starter",
+    "description": "Ready-to-use CMS with GraphQL.",
+    "category": "Backend",
+    "language": "JavaScript",
+    "url": "https://github.com/search?q=strapi-headless-cms"
   }
 ]
