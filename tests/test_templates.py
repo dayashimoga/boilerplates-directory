@@ -18,9 +18,10 @@ def real_env():
     if not master_templates.exists():
         # CI fallback: if running inside a distributed repo, try src/templates
         master_templates = ROOT_DIR / "src" / "templates"
-    if not master_templates.exists():
-        pytest.skip(f"Templates directory not found at {master_templates}. "
-                    "Skipping template tests (likely a pure HTML/JS project).")
+    assert master_templates.exists(), (
+        f"Templates directory not found at {master_templates}. "
+        f"Template tests require quickutils-master/src/templates."
+    )
 
     env = Environment(
         loader=FileSystemLoader(str(master_templates)),
